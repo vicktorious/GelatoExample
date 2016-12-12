@@ -1,0 +1,20 @@
+{"iceCreams":
+    [
+        {
+            "flavour": "Chocolate",
+            "price": 1.0
+        },
+        {
+            "flavour": "Strawberry",
+            "price": 1.0
+        },
+        {
+            "flavour": "Mint Cookies",
+            "price": 1.5
+        },
+        {
+            "flavour": "Toffeeness",
+            "price": 1.5
+        }
+     ]
+}

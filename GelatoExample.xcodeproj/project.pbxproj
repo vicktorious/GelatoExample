@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B10611B1D9C600A001712F5 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B10611A1D9C6009001712F5 /* Users.json */; };
+		8B286C8A1D99CC7900648662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B286C891D99CC7900648662 /* AppDelegate.swift */; };
+		8B286C8C1D99CC7900648662 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B286C8B1D99CC7900648662 /* LoginViewController.swift */; };
+		8B286C8F1D99CC7900648662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B286C8D1D99CC7900648662 /* Main.storyboard */; };
+		8B286C911D99CC7900648662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B286C901D99CC7900648662 /* Assets.xcassets */; };
+		8B286C941D99CC7900648662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B286C921D99CC7900648662 /* LaunchScreen.storyboard */; };
+		8B286C9C1D99DF6900648662 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B286C9B1D99DF6900648662 /* StartViewController.swift */; };
+		8B286C9E1D99DFDE00648662 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B286C9D1D99DFDE00648662 /* AboutViewController.swift */; };
+		8B286CA01D99E09B00648662 /* BasketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B286C9F1D99E09B00648662 /* BasketTableViewController.swift */; };
+		8B4674A31D9B181800EFE1F7 /* IceCreamMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4674A21D9B181800EFE1F7 /* IceCreamMenuTableViewController.swift */; };
+		8B4674A51D9B43F900EFE1F7 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4674A41D9B43F900EFE1F7 /* ConfirmViewController.swift */; };
+		8B4674A71D9B443100EFE1F7 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4674A61D9B443100EFE1F7 /* ThanksViewController.swift */; };
+		8B4674AD1D9B4FA500EFE1F7 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4674AC1D9B4FA500EFE1F7 /* Cells.swift */; };
+		8B4674B11D9B630A00EFE1F7 /* Gelato.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B4674AE1D9B51A600EFE1F7 /* Gelato.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B10611A1D9C6009001712F5 /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		8B286C861D99CC7900648662 /* GelatoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelatoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B286C891D99CC7900648662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B286C8B1D99CC7900648662 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B286C8E1D99CC7900648662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B286C901D99CC7900648662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B286C931D99CC7900648662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B286C951D99CC7900648662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B286C9B1D99DF6900648662 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8B286C9D1D99DFDE00648662 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8B286C9F1D99E09B00648662 /* BasketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewController.swift; sourceTree = "<group>"; };
+		8B4674A21D9B181800EFE1F7 /* IceCreamMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamMenuTableViewController.swift; sourceTree = "<group>"; };
+		8B4674A41D9B43F900EFE1F7 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		8B4674A61D9B443100EFE1F7 /* ThanksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		8B4674AC1D9B4FA500EFE1F7 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		8B4674AE1D9B51A600EFE1F7 /* Gelato.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Gelato.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B286C831D99CC7900648662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B286C7D1D99CC7900648662 = {
+			isa = PBXGroup;
+			children = (
+				8B286C881D99CC7900648662 /* GelatoExample */,
+				8B286C871D99CC7900648662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B286C871D99CC7900648662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B286C861D99CC7900648662 /* GelatoExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B286C881D99CC7900648662 /* GelatoExample */ = {
+			isa = PBXGroup;
+			children = (
+				8B286C891D99CC7900648662 /* AppDelegate.swift */,
+				8B286C8B1D99CC7900648662 /* LoginViewController.swift */,
+				8B286C8D1D99CC7900648662 /* Main.storyboard */,
+				8B286C901D99CC7900648662 /* Assets.xcassets */,
+				8B286C921D99CC7900648662 /* LaunchScreen.storyboard */,
+				8B286C951D99CC7900648662 /* Info.plist */,
+				8B286C9B1D99DF6900648662 /* StartViewController.swift */,
+				8B286C9D1D99DFDE00648662 /* AboutViewController.swift */,
+				8B286C9F1D99E09B00648662 /* BasketTableViewController.swift */,
+				8B4674A21D9B181800EFE1F7 /* IceCreamMenuTableViewController.swift */,
+				8B4674A41D9B43F900EFE1F7 /* ConfirmViewController.swift */,
+				8B4674A61D9B443100EFE1F7 /* ThanksViewController.swift */,
+				8B4674AC1D9B4FA500EFE1F7 /* Cells.swift */,
+				8B4674AE1D9B51A600EFE1F7 /* Gelato.json */,
+				8B10611A1D9C6009001712F5 /* Users.json */,
+			);
+			path = GelatoExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B286C851D99CC7900648662 /* GelatoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B286C981D99CC7900648662 /* Build configuration list for PBXNativeTarget "GelatoExample" */;
+			buildPhases = (
+				8B286C821D99CC7900648662 /* Sources */,
+				8B286C831D99CC7900648662 /* Frameworks */,
+				8B286C841D99CC7900648662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GelatoExample;
+			productName = GelatoExample;
+			productReference = 8B286C861D99CC7900648662 /* GelatoExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B286C7E1D99CC7900648662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = developer;
+				TargetAttributes = {
+					8B286C851D99CC7900648662 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8B286C811D99CC7900648662 /* Build configuration list for PBXProject "GelatoExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B286C7D1D99CC7900648662;
+			productRefGroup = 8B286C871D99CC7900648662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B286C851D99CC7900648662 /* GelatoExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B286C841D99CC7900648662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B286C941D99CC7900648662 /* LaunchScreen.storyboard in Resources */,
+				8B286C911D99CC7900648662 /* Assets.xcassets in Resources */,
+				8B10611B1D9C600A001712F5 /* Users.json in Resources */,
+				8B286C8F1D99CC7900648662 /* Main.storyboard in Resources */,
+				8B4674B11D9B630A00EFE1F7 /* Gelato.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B286C821D99CC7900648662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B286C8C1D99CC7900648662 /* LoginViewController.swift in Sources */,
+				8B286CA01D99E09B00648662 /* BasketTableViewController.swift in Sources */,
+				8B286C8A1D99CC7900648662 /* AppDelegate.swift in Sources */,
+				8B4674A31D9B181800EFE1F7 /* IceCreamMenuTableViewController.swift in Sources */,
+				8B4674AD1D9B4FA500EFE1F7 /* Cells.swift in Sources */,
+				8B286C9E1D99DFDE00648662 /* AboutViewController.swift in Sources */,
+				8B4674A71D9B443100EFE1F7 /* ThanksViewController.swift in Sources */,
+				8B4674A51D9B43F900EFE1F7 /* ConfirmViewController.swift in Sources */,
+				8B286C9C1D99DF6900648662 /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B286C8D1D99CC7900648662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B286C8E1D99CC7900648662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B286C921D99CC7900648662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B286C931D99CC7900648662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B286C961D99CC7900648662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B286C971D99CC7900648662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B286C991D99CC7900648662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GelatoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vick.GelatoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B286C9A1D99CC7900648662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GelatoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vick.GelatoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B286C811D99CC7900648662 /* Build configuration list for PBXProject "GelatoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B286C961D99CC7900648662 /* Debug */,
+				8B286C971D99CC7900648662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B286C981D99CC7900648662 /* Build configuration list for PBXNativeTarget "GelatoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B286C991D99CC7900648662 /* Debug */,
+				8B286C9A1D99CC7900648662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B286C7E1D99CC7900648662 /* Project object */;
+}
